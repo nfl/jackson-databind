@@ -171,4 +171,17 @@ javax.xml.datatype, javax.xml.namespace, javax.xml.parsers
     </profile>
   </profiles>
 
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>NFL.com Repository</name>
+      <url>http://nexus.la3.nfl.com/nexus/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>NFL.com Snapshot Repository</name>
+      <url>http://nexus.la3.nfl.com/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
